@@ -1,3 +1,3 @@
-#instill git 
-#make github account
+# instill git 
+# make github account
 #
