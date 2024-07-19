@@ -1,0 +1,12 @@
+data=[(43,45,98),(65,12,20)]
+print(data)
+print(data[0][0])
+x=list(data[0])
+y=list(data[1])
+print(type(x))
+x[0]=200
+y[2]=900
+data[0]=tuple(x)
+data[1]=tuple(y)
+print(data)
+print(type(data[1]))
