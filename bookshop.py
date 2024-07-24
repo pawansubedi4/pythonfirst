@@ -33,5 +33,12 @@ else:
 tax_total=muna_price+yeak_price+reavel_price
 tax_price=tax_total*0.13
 grand_total=tax_total+del_price+tax_price  
+print("................bill............")
+print(f"product name = {book_name}")
+print("product price=",tax_total)
+print("delevary charge=",del_price)
+print("tax amount=",tax_price)
+print(f"grand total {grand_total}")
+
               
 
