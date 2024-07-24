@@ -1,0 +1,5 @@
+p=int(input("enter any no"))
+t=int(input("enter any no"))
+r=int(input("enter any no"))
+si=float(p*t*r/100)
+print("the result is",si)
