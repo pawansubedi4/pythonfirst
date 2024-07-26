@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+
+#instill git 
+#make github account
+#
+=======
 # instill git 
 # make github account
 # go to command prompt  
@@ -10,3 +16,4 @@ how to add file to github
 3. git commit -m "commit"
 4. git push origin main
 
+>>>>>>> dec0872177484e702ac14e4c456a626e7b1d8d2d
