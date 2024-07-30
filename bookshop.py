@@ -31,7 +31,7 @@ elif del_option==3:
 else:
     print("not in option")
 tax_total=muna_price+yeak_price+reavel_price
-tax_price=tax_total*0.13
+tax_price=float(tax_total*0.13)
 grand_total=tax_total+del_price+tax_price  
 print("................bill............")
 print(f"product name = {book_name}")
