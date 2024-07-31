@@ -19,7 +19,7 @@ data2=[
 print(data2[1][2][0][0][0][0])
 print(data2[1][2][1])
 
+data[0]=0
 
-
-
+print(data)
     
