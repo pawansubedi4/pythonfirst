@@ -1,4 +1,4 @@
-obj =open("name.txt","a")
+obj =open("book.txt","a")
 name =input("enter book name")
 auther =input("enter auther name")
 year=input("enter prented year")
@@ -7,8 +7,6 @@ obj.write(f"{name}\t{auther}\t{year}\t{quantity}\n")
 obj.close()
 
 
-obj=open("name.txt","r")
+obj=open("book.txt","r")
 for name in obj.readlines():
     print(name)
-
-
