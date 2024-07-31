@@ -1,0 +1,1 @@
+name=pawan	 deducted amt=200	remaining amount=9800

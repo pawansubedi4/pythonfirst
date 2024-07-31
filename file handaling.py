@@ -1,0 +1,12 @@
+obj =open("name.txt","a")
+name =input("enter your name")
+email =input("enter your email")
+phone=input("enter your phone number")
+obj.write(f"\n{name}\t{email}\t{phone}")
+obj.close()
+obj=open("name.txt","r")
+# print(obj.read())
+print(obj.readline())
+# print(obj.readlines())
+
+obj.close()
