@@ -12,10 +12,12 @@ today_date=datetime.datetime.today()
 
 print(today_date)
 
-for i in range(5):
-    exp=datetime.datetime.strptime("s[i]["exp_date"]")
-    if s[i]["exp_date"]<today_date:
-        exp_days=today_date-s[i]["exp_date"]
-        print(f"{s[i]["title"]} date was expired ")
+for job in range(5):
+    exp=datetime.datetime.strptime(s[job]['exp_date'],'%Y-%m-%d')
+    
+    if exp<today_date:
+        exp_days=today_date-exp
+        print(f"{s[job]["title"]} date was expired {exp_days} days ago ")
     else:
-        print(f"{s[i]["title"]} date was not  expired ")
+        exp_days=exp-today_date
+        print(f"{s[job]["title"]} date was not  expired it will expired in {exp_days} days")
