@@ -10,4 +10,5 @@ for i in range(0,num):
     limit=datetime.datetime.strptime(lit,'%Y-%m-%d')
     if birth<today and birth>limit:
         print(name,birthday)
-    
+print("thankyou for using it")
+
