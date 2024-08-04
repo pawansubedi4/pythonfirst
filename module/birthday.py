@@ -52,3 +52,7 @@ else:  # today<birth
         diff_month=birth-today
         diff_day=birthday-todayday
         print(f"your birthday id comming {diff_month}and {diff_day}")
+
+
+
+

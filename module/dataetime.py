@@ -21,3 +21,7 @@ for job in range(5):
     else:
         exp_days=exp-today_date
         print(f"{s[job]["title"]} date was not  expired it will expired in {exp_days} days")
+
+
+
+
