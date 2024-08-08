@@ -36,11 +36,11 @@ def add_record():
         addresss=address.get()
         phones=phone.get()
         file.write(f"first name={fname}\t second name={lname}\t gmail={gmails} \t address={addresss}\tphone={phones}\n")
-        # fname.delete(0,tk.end)
-        # lname.delete(0,tk.end)
-        # gmails.delete(0,tk.end)
-        # addresss.delete(0,tk.end)
-        # phones.delete(0,tk.end)
+        firstName.delete(0,tk.END)
+        lastName.delete(0,tk.END)
+        gmail.delete(0,tk.END)
+        address.delete(0,tk.END)
+        phone.delete(0,tk.END)
         msg.showinfo("record added","records added successfully")
 
 
