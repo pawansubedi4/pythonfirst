@@ -12,3 +12,6 @@ for i in range(0,num):
         print(name,birthday)
 print("thankyou for using it")
 
+
+
+

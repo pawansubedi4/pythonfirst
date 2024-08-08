@@ -5,3 +5,5 @@ data = data.json()
 
 for i in data:
     print(i["name"])
+for j in data:
+    print(i["address"]["zipcode"])
