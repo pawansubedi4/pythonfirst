@@ -18,7 +18,10 @@ class product:
     def delete(self,name):
         for i in range(len(self.product_list)):
             if self.product_list[i]["name"]==name:
-                x=        
+                x=list(self.product_list[i])
+                x.remove()
+                
+
 
 
 
